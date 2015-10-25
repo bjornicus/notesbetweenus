@@ -19,4 +19,5 @@ textarea {
 div[contenteditable=true]:empty {
   border: 1px dashed #AAA;
   padding: 0.5em;
+  color: #AAA;
 }
