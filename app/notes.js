@@ -14,6 +14,6 @@ messageData.on("value", function (snapshot) {
 
 inputElement.onkeypress = function (e) {
     if (e.keyCode == 13) {
-      messageData.set(inputElement.value);
+      messageData.set(inputElement.innerText);
     }
 }
