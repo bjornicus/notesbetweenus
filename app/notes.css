@@ -8,7 +8,7 @@ textarea {
 	font-family: cursive;
 	font-size: 1.5em;
 	text-align: center;
-	max-width: 50%;
+	max-width: 900px;
 }
 
 [contenteditable=true]:empty:before{
@@ -16,8 +16,7 @@ textarea {
   display: block; /* For Firefox */
 }
 
-div[contenteditable=true] {
+div[contenteditable=true]:empty {
   border: 1px dashed #AAA;
-  width: 290px;
-  padding: 5px;
+  padding: 0.5em;
 }

@@ -6,7 +6,7 @@ if (path === ''){
 }
 var messageData = new Firebase('https://sweltering-fire-5125.firebaseio.com').child(path);
 var messageElement = document.getElementById('message');
-var inputElement = document.getElementById('messageInput');
+var inputElement = document.getElementById('message');
 
 messageData.on("value", function (snapshot) { 
 	messageElement.innerText = snapshot.val();
