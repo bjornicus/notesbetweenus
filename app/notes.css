@@ -4,6 +4,7 @@ textarea {
 }
 
 .content {
+	padding: 1.5em;
 	font-family: cursive;
 	font-size: 1.5em;
 	text-align: center;
